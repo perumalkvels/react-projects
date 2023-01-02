@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.pm-0{
+    padding: 0;
+    margin:0;
+}
+.top_title img{
+margin:0 auto;
+display: block;
+width:250px;    
+}
+.navbar{
+width:100%;
+margin: 0 auto;
+position: sticky;
+}
+.nav-icon-img{
+padding: 2px;
+background: white;
+color: white;
+margin-left: 9px;
+border-radius: 50%;
+}
+.kartbutton{
+    color:white;
+    border:none;
+    background: none;
+}
+.kart_img1{
+width:20px;
+color:white; 
+}
+.sampleclass1 li{
+    margin: 0px 2%;
+}
+.banner{
+width:100%;
+}
+.carousel-image{
+height:550px;
+width: 100%!important;
+}
+.carousel-details{
+left: 0!important;
+bottom: 0%!important;
+width: 100%!important;
+background-color: #601111;
+}
+
+section{
+margin: 0 auto;
+}
+.top_brands{
+margin: 0 auto;
+}
+.brand-img{
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+.brand-img img{
+    align-self: center;
+    width: 225px;
+    border-radius: 152px;
+}
+.brand-img button{
+    background: none;
+    border:none;
+}
+.product-id{
+border-radius: 20px;
+}
+
+
+/* footer section Starts Here */
+footer{
+
+background-color: darkgray;
+}
+.inside-footer{
+margin:0 auto;
+}
+.foot-div1{
+padding-right:10% ;
+border-right:3px solid white;
+}
+.footer_logo{
+margin:0 auto;
+display: block;
+width:250px; 
+border-radius: 50%;
+}
+.footer-listset{
+margin:0 auto;  
+display:flex;
+list-style-type:none; 
+justify-content: center;
+padding:10px;
+}
+.footer-listset li{
+color:white;
+margin:0 auto;  
+justify-content: center;
+padding:10px;
+}
+
+/* Product Card Styling  */
+
+.kfc-brand-logo{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color: #f7f7f7;
+}
+.kfc-brand-logo img{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:20px;
+}
+.product-card-body{
+    min-height: 285px;
+}
+.product-card{
+    min-height: 560px;
+}
+.card-text{
+    min-height:93px;
+}
+#foot-item{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.food-part{
+    display:flex;
+}
+
+
+/* Products Page Styling */
+
+.product-id{
+    border:none!important;
+}
+.product-card{
+    min-height: 500px;
+}
+.product-text-content{
+    max-height: 233px;
+}
+.product-card-body{
+    min-height: 315px!important;
+    max-height: 300px!important;
+}
+.food-img{
+    min-height: 150px!important;
+    max-height: 150px!important;
+} 
+
+
+/* Login and Register Page Styling */
+
+.logincontainer input:focus ,
+.registercontainer input:focus{
+    outline: none !important
+}
+
+
+/* Food Form Styling */
+
+
+.food-form-wrapper {
+    overflow:hidden;
+    background-image: url(./images/KFC-Uber-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 200vh;
+  }
+  .food-form {
+    margin-top:3%;
+    width: 60%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    opacity: initial !important;
+  }
+.radio-type label{
+        margin : 0 10px;
+  }
+
+
+
+/* Cart Page Styling */
+
+
+.card-text{
+    font-size:16px!important;
+}
+.card-img{
+    max-height : 150px!important;
+}
+.cart-Btn{
+    margin:auto!important;
+    height: 35px;
+    width:80%;
+    display:flex;
+    justify-content: center;
+}
+.cart-Btn button{
+    border-radius: 35px;
+}
+.cart-Btn-update{
+    border-radius: 13px!important;
+}
+.cart-Btn-price{
+    margin:0 3%!important;
+}
+.item-qty{
+    margin:auto 0;
+    display:flex;
+    align-content: center;
+}
+.User-details{
+    height:200vh;
+}
+.User-details-cart{
+    height: 194vh;
+}
+.User-details-header{
+    border-bottom:2px solid darkred;
+}
+
+/* Order Page Styling */
+.order-wrapper{
+    min-height: 400px;
+}
+.delivery-img-wrapper{
+    display :flex;
+    justify-content: center;
+}
+.cartImg , .deliveryImg{
+    opacity : 0.5;
+    align-items: center;
+    width:250px;
+    height :250px;
+}
+
+.order-img{
+    max-width:100%!important;
+    max-height:150px!important;
+}

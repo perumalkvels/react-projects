@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+body {
+  padding:0;
+  margin:0;
+  background-color: #232228;    
+}
+
+.login-outerwrapper{
+  display: flex;
+  margin:auto;
+
+}
+.login-innerwrapper{
+  margin: 100px auto;
+  border-radius: 20px;
+  background-color: #343a40;
+  border:2px solid rgb(255, 169, 10)!important;
+}
+.genertor-form-wrapper{
+  color:black;
+  padding:0;
+  margin:0;
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+.container{
+  padding:50px;
+  margin:0 auto; 
+}
+genertor-form-wrapper input, textarea{
+
+}
+.single_field{
+  display:flex;
+
+}
+.single_field input,textarea{
+  width:40%;
+  height : 50px;
+  margin: 12px auto;
+  font-size: larger;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  border-bottom:2px solid rgb(255, 169, 10)!important;
+}
+.table-wrapper{
+  display: flex;
+  justify-content: center;
+  padding : 30px;
+  text-align: center;
+  border:2px dotted rgb(255, 166, 0);
+}
+.tableinput-wrapper input{
+  width:80%;
+  height : 50px;
+  margin: 12px auto;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  border-bottom:2px solid rgb(255, 169, 10)!important;
+}
+.edu_table th{
+  font-size: larger;
+  text-align: center;
+  padding:20px;
+  border-radius: 10px;
+}
+
+.skills input,.certification input,.projects input,
+.projects textarea,.interests input,.personalDetails input{
+  height : 50px;
+  text-align: center;
+  margin:20px;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  border-bottom:2px solid rgb(255, 169, 10)!important;
+}
+.certification1,.certification2{
+   margin:10px auto;
+  display:flex;
+  justify-content: center;
+}
+
+.inner-projects{
+  width:80%;
+  margin:0 auto;
+  font-size: larger;
+  text-align: center;
+  padding:20px;
+}
+.interests input{
+   display:block;
+  padding:2% 30%;
+}
+
+.personalDetails {
+  width:100%;
+}
+.inner-personalDetails{
+  margin:0 auto;
+  text-align: center;
+  width:80%;
+}
+.personalDetails input{
+  padding: 0;
+  width:60%;
+}
+.resume_links{
+  display:flex;
+  list-style-type: none;
+  color: white !important;
+}
+.resume_link li{
+  display:inline;
+  border:1px solid white !important;
+}
+
+.register-wrapper{
+  width:100%;
+  margin: 0 auto;
+}
+
+.register-innerwrapper{
+  border-radius: 20px;;
+  margin: 0 auto;
+  margin-top:100px;
+  margin-bottom:100px;
+  width:50%;
+  border:2px solid rgb(255, 166, 0);
+}
+
+.register-fields{
+  padding : 0 6%;
+}
+
+.register-innerwrapper label{
+  width: 30%;
+  font-size: 20px;
+  font-family: Poppins;
+  color :#ffc107  !important;
+}
+.register-innerwrapper input{
+    color: rgb(255 193 7);
+    font-family: Poppins;
+    font-size: 20px;
+    height: 20px;
+    width: 65%;
+    text-align: center;
+    margin: 14px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(255, 169, 10);
+}
+
